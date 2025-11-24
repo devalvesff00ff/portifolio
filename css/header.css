@@ -1,0 +1,47 @@
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* tamanho controlado da logo */
+.logo {
+    width: 130px;
+    margin: 0px;
+    padding: 0px    ;
+    cursor: pointer;
+  
+    
+}
+
+.menu-header {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-header a {
+    transform: translateY(-5px);
+    text-decoration: none;
+    color: #f15454;
+    font-size: 16px;
+    padding: 10px 15px;
+    line-height: 1.3;
+    display: block;
+    cursor: pointer;
+}
+
+.menu-header a:hover {
+    /* Aplica um zoom de 10% (1.1 significa 110% do tamanho original) */
+    transform: scale(1.1);
+    /* Opcional: Aumenta um pouco o tamanho da fonte para reforçar o efeito */
+    font-size: 18px;
+    /* Opcional: Muda a cor do texto */
+    color: #ee7504; /* Exemplo de uma cor chamativa */
+}

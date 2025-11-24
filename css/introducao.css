@@ -1,0 +1,42 @@
+#introducao {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    gap: 100px;
+   
+}
+.introducao h1 {
+    font-size: 48px; /* Mantendo o tamanho grande */
+    line-height: 1.2;
+    margin-top: 0; /* Importante para evitar que o h1 empurre tudo para baixo */
+    margin-bottom: 30px; /* Espaço entre o h1 e o parágrafo */
+    /* Adicione a cor do texto se o fundo for escuro: */
+    color: white; 
+}
+
+.introducao p {
+    font-size: 1.25em; /* Tamanho confortável para leitura */
+    line-height: 1.6;
+    /* Escolha uma cor mais clara, mas não totalmente branca (ex: cinza claro) */
+    color: #ccc; 
+}
+
+.coluna-texto { 
+    /* Adiciona um pequeno padding interno à direita do texto */
+    padding-right: 20px; 
+    
+    /* Por padrão, o texto deve estar alinhado à esquerda (text-align: left) */
+    text-align: left;
+}
+main {
+    margin-top: 100px;
+    /* ... outras propriedades de layout aqui ... */
+     padding-top: 0px;
+    box-sizing: border-box;
+    /* Adiciona um espaço de 80 pixels no lado esquerdo */
+    padding-left:450px; 
+}
